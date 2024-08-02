@@ -22,12 +22,25 @@ body {
     position: relative;
 }
 
+.container-main {
+    padding: 10px;
+    background-color: hsl(219, 52%, 13%);
+    border-radius: 40px;
+}
+
+.container-one {
+    padding: 20px;
+    
+    border-radius: 40px;
+}
+
 .wrapper {
     width: 350px;
     background-color: hsl(216, 50%, 16%);
     border-radius: 15px;
     padding: 15px;
-    position: absolute;
+    position: relative;
+    box-shadow: 0px 10px 50px hsl(215, 50%, 10%);
 }
 
 img {
@@ -90,4 +103,39 @@ svg {
 
 .line {
     border:1px solid hsl(215, 32%, 27%);
+}
+
+
+.creation {
+    display: flex;
+    width: 400px;
+    text-align: left;
+    position: relative;
+    margin-left: -13px;
+    margin-top: -5px;
+    align-items: center;
+}
+
+.circle img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    align-content: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 0;
+}
+
+.creation h3 {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 15px;
+    word-spacing: 2px;
+}
+
+span {
+    font-weight: 300;
+    word-spacing: 2px;
+    color: white;
 }
