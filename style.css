@@ -18,16 +18,13 @@ body {
     position: relative;
 }
 
-.container-main {
-    padding: 10px;
-    background-color: hsl(219, 52%, 13%);
-    border-radius: 40px;
-}
+
 
 .container-one {
     padding: 20px;
+    background-color: hsl(215, 46%, 11%);
+    border-radius: 20px;
     
-    border-radius: 40px;
 }
 
 .wrapper {
