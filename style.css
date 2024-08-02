@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#attribution {
+    display: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+    color: white;
+    background-color: hsl(217, 54%, 11%);
+    position: relative;
+}
+
+.wrapper {
+    width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 15px;
+    position: absolute;
+}
+
+img {
+    border-radius: 20px;
+    margin-top: -10px;
+    margin-bottom: -50px;
+    padding: 5px;
+}
+
+.equili {
+    padding: 13px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.equili h2 {
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.equili p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.eth-days {
+    display: flex;
+    font-size: 12px;
+    margin-top: 10px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.eth {
+    display: flex;
+    font-weight: 700;
+}
+
+.days {
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    color: hsl(178, 100%, 50%);
+}
+
+h4 {
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+    font-size: 14.5px;
+}
+
+svg {
+    margin-right: 10px;
+}
