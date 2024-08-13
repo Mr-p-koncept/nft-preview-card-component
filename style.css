@@ -5,8 +5,8 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-body {
+@media screen and (min-width: 1440px) {
+    body {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -142,4 +142,5 @@ footer, a {
 a:hover{
     text-decoration: underline;
     color: hsl(215, 85%, 41%);
+}
 }
